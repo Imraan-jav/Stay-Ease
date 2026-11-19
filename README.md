@@ -1,3 +1,4 @@
+#STAY-EASE
 # PG / Hostel Management System
 
 Backend-focused project: **Java 17, Spring Boot 3, PostgreSQL, MongoDB, JWT, Docker, Render**, with a small vanilla-JS frontend and a Postman collection.
