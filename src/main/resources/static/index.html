@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PG Manager</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<section id="login" hidden>
+  <form data-form="login" class="box">
+    <h1>PG Manager</h1>
+    <label>Email<input name="email" type="email" value="admin@pg.com" required></label>
+    <label>Password<input name="password" type="password" value="Admin@123" required></label>
+    <button>Sign in</button>
+    <p class="muted">Demo admin is pre-filled. Tenants sign in with the email/password the admin created.</p>
+  </form>
+</section>
+<section id="app" hidden>
+  <header><b>PG Manager</b><span id="who"></span><button class="sm" onclick="logout()">Logout</button></header>
+  <nav></nav>
+  <main id="view"></main>
+</section>
+<div id="toast"></div>
+<script src="/app.js"></script>
+</body>
+</html>
